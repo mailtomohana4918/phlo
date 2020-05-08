@@ -3,7 +3,7 @@ import { Box, Typography, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  Registerform: {
+  success: {
     position: "absolute",
     width: "100%",
     height: "100%",
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     backgroundColor: "rgba(0,0,0, 0.5)",
   },
-  Registerform_inner: {
+  successInner: {
     position: "absolute",
     left: "25%",
     right: "25%",
@@ -26,8 +26,8 @@ const useStyles = makeStyles((theme) => ({
 const Success = (props) => { 
   const classes = useStyles();
   return (
-    <div className={classes.Registerform}>
-      <div className={classes.Registerform_inner}>
+    <div className={classes.success}>
+      <div className={classes.successInner}>
         <Box textAlign="center">
           <Typography>
             Booking successful ! You will receive email confirmation
