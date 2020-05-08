@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success Component renders as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-Registerform-1"
+  >
+    <div
+      class="makeStyles-Registerform_inner-2"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-4"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1"
+        >
+          Booking successful ! You will receive email confirmation
+        </p>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+          tabindex="0"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Close
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
